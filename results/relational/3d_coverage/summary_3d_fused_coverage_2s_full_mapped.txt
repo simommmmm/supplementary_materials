@@ -1,0 +1,144 @@
+RELATIONAL 3D/FUSED COVERAGE DIAGNOSTIC
+================================================================================
+Input: C:\Users\simom\Desktop\tesi\SocialMirror\data\processed\relational_graph_dataset\relational_pairs_mapped_2s.csv
+Output: C:\Users\simom\Desktop\tesi\SocialMirror\data\processed\relational_graph_dataset\relational_3d_fused_coverage_2s_full_mapped.csv
+Rows: 5709
+FPS used for frame-to-time conversion: 20.0
+
+Label counts:
+rel_label
+B2_contatto_affiliativo    4660
+B1_B4                      1049
+Name: count, dtype: int64
+
+frame_master_found:
+frame_master_found
+1    5709
+Name: count, dtype: int64
+
+
+has_any_3d_node:
+has_any_3d_node
+0    4917
+1     792
+Name: count, dtype: int64
+
+Label x has_any_3d_node:
+has_any_3d_node             0    1
+rel_label
+B1_B4                     810  239
+B2_contatto_affiliativo  4107  553
+
+has_both_3d_nodes:
+has_both_3d_nodes
+0    5672
+1      37
+Name: count, dtype: int64
+
+Label x has_both_3d_nodes:
+has_both_3d_nodes           0   1
+rel_label
+B1_B4                    1049   0
+B2_contatto_affiliativo  4623  37
+
+has_any_fused_node:
+has_any_fused_node
+0    5042
+1     667
+Name: count, dtype: int64
+
+Label x has_any_fused_node:
+has_any_fused_node          0    1
+rel_label
+B1_B4                     815  234
+B2_contatto_affiliativo  4227  433
+
+has_both_fused_nodes:
+has_both_fused_nodes
+0    5679
+1      30
+Name: count, dtype: int64
+
+Label x has_both_fused_nodes:
+has_both_fused_nodes        0   1
+rel_label
+B1_B4                    1049   0
+B2_contatto_affiliativo  4630  30
+
+has_any_mv_node:
+has_any_mv_node
+0    5042
+1     667
+Name: count, dtype: int64
+
+Label x has_any_mv_node:
+has_any_mv_node             0    1
+rel_label
+B1_B4                     815  234
+B2_contatto_affiliativo  4227  433
+
+has_both_mv_nodes:
+has_both_mv_nodes
+0    5679
+1      30
+Name: count, dtype: int64
+
+Label x has_both_mv_nodes:
+has_both_mv_nodes           0   1
+rel_label
+B1_B4                    1049   0
+B2_contatto_affiliativo  4630  30
+
+has_any_metric_xyz_node:
+has_any_metric_xyz_node
+0    5042
+1     667
+Name: count, dtype: int64
+
+Label x has_any_metric_xyz_node:
+has_any_metric_xyz_node     0    1
+rel_label
+B1_B4                     815  234
+B2_contatto_affiliativo  4227  433
+
+has_both_metric_xyz_nodes:
+has_both_metric_xyz_nodes
+0    5679
+1      30
+Name: count, dtype: int64
+
+Label x has_both_metric_xyz_nodes:
+has_both_metric_xyz_nodes     0   1
+rel_label
+B1_B4                      1049   0
+B2_contatto_affiliativo    4630  30
+
+Rows by video/label/has_both_fused_nodes:
+      video_id               rel_label  has_both_fused_nodes  count
+2026-03-02_H10                   B1_B4                     0    209
+2026-03-02_H10 B2_contatto_affiliativo                     0    887
+2026-03-02_H10 B2_contatto_affiliativo                     1     30
+2026-03-02_H11                   B1_B4                     0     14
+2026-03-02_H11 B2_contatto_affiliativo                     0   2730
+2026-03-02_H12                   B1_B4                     0    334
+2026-03-02_H12 B2_contatto_affiliativo                     0    525
+2026-03-03_H10                   B1_B4                     0    369
+2026-03-03_H10 B2_contatto_affiliativo                     0     26
+2026-03-03_H12                   B1_B4                     0      5
+2026-03-03_H13                   B1_B4                     0    118
+2026-03-03_H13 B2_contatto_affiliativo                     0    462
+
+Rows by video/label/has_both_metric_xyz_nodes:
+      video_id               rel_label  has_both_metric_xyz_nodes  count
+2026-03-02_H10                   B1_B4                          0    209
+2026-03-02_H10 B2_contatto_affiliativo                          0    887
+2026-03-02_H10 B2_contatto_affiliativo                          1     30
+2026-03-02_H11                   B1_B4                          0     14
+2026-03-02_H11 B2_contatto_affiliativo                          0   2730
+2026-03-02_H12                   B1_B4                          0    334
+2026-03-02_H12 B2_contatto_affiliativo                          0    525
+2026-03-03_H10                   B1_B4                          0    369
+2026-03-03_H10 B2_contatto_affiliativo                          0     26
+2026-03-03_H12                   B1_B4                          0      5
+2026-03-03_H13                   B1_B4                          0    118
+2026-03-03_H13 B2_contatto_affiliativo                          0    462
